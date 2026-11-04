@@ -9,8 +9,8 @@ import com.mysql.cj.jdbc.Driver;
 
 public class BankingApp {
     private static final String url = "jdbc:mysql://localhost:3306/bankingSystem";
-    private static final String username = "root";
-    private static final String password = "Dinu@sql#45";
+    private static final String username = "your_mysql_username";
+    private static final String password = "your_mysql_password";
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         try {
